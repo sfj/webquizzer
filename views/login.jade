@@ -1,0 +1,16 @@
+extends layout
+
+block head
+  script(src='/javascripts/user.js')
+  link(rel='stylesheet', href='/stylesheets/user.css')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+
+block content
+  #page1(data-role='page', data-theme='a')
+    p(data-role='header') Welcome to Web Quiz
+    form(data-ajax='false', method='post', data-role='content')#loginform
+      p Team name:
+      input(type='text', name='username' required pattern='[a-zA-Z]+')#logintext.ui-txt
+      input(type='submit', value='Buzz!')#loginbutton.ui-btn
+
+  

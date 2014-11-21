@@ -1,0 +1,17 @@
+extends layout
+
+block head
+  script(src='/socket.io/socket.io.js')
+  script(src='javascripts/admin.js')
+  link(rel='stylesheet', href='http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css')
+  link(rel='stylesheet', href='/stylesheets/admin.css')
+
+block content
+  h1 Web Quiz ScoreCenter
+  #scorecenter
+    #buzzholder
+      #buzzboks
+      button(value='Reset buzzers')#buzzreset
+    #scoreholder
+      #scoreboard
+      button(value='Reset game')#gamereset

@@ -1,0 +1,64 @@
+
+#scorecenter {
+    float: left;
+    height: 800px;
+    width: 610px;
+}
+#buzzholder {
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+#buzzboks {
+    height: 400px;
+    width: 100%;
+}
+#buzzboks div .lineentry {
+    width: 100%;
+    height: 40px;
+}
+#buzzboks div .left {
+    float: left;
+    width: 75%;
+    padding: 10px 5px 10px 5px ;
+}
+#buzzboks div .left span {
+    font-weight: bold;
+}
+#buzzboks .ui-btn {
+    float: left;
+    width: 10%;
+    height: 90%;
+    margin: 0px;
+}
+#buzzboks .ui-btn-inner {
+    width: 10%;
+    padding: 8px;
+}
+#scoreholder {
+    height: 100%;
+    width: 300px;
+    float: left;
+}
+#scoreboard {
+    height: 400px;
+    width: 100%;
+    font-weight: bold;
+}
+#scoreboard div .left {
+    width: 40%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+#scoreboard div .right {
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 10px;
+}
+#scoreboard div .lineentry {
+    width: 100%;
+    clear: both;
+    padding: 10px;
+}
